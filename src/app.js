@@ -55,6 +55,14 @@ app.get("/health", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "TaskFlow API is running",
+  });
+});
+
+
 // Routes
 app.use("/api/auth", userRoutes);
 app.use("/api/tasks", taskRoutes);

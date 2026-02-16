@@ -77,12 +77,12 @@ npm install
 
 Create a `.env` file:
 
-PORT=3000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret
-REDIS_URL=your_redis_url
-CLIENT_URL=http://localhost:5173
-NODE_ENV=development
+* PORT=3000
+* MONGO_URI=your_mongodb_uri
+* JWT_SECRET=your_secret
+* REDIS_URL=your_redis_url
+* CLIENT_URL=http://localhost:5173
+* NODE_ENV=development
 
 ### 4. Run the server
 
@@ -96,11 +96,11 @@ npm start
 
 ## API Documentation
 
-Swagger UI:
-http://localhost:3000/api-docs
+Live API:
+https://taskflow-backend-39zx.onrender.com
 
-After deployment:
-https://your-app.onrender.com/api-docs
+Swagger Documentation:
+https://taskflow-backend-39zx.onrender.com/api-docs
 
 ---
 
