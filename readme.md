@@ -47,18 +47,18 @@ The project focuses on clean architecture, real-world backend practices, perform
 
 ## Project Structure
 
-src/
- controllers/
- routes/
- models/
- middlewares/
- validators/
- config/
- utils/
- jobs/
-
-server.js
-package.json
+* src/
+*  controllers/
+*  routes/
+*  models/
+*  middlewares/
+*  validators/
+*  config/
+*  utils/
+*  jobs/
+* 
+* server.js
+* package.json
 
 ---
 
